@@ -170,6 +170,9 @@ button.enviar:hover{
     background: #0022AA;
 }
 
+.buttons button{
+    width: 25%;
+}
 .articulo-principal {
     border-top: #ebebeb solid 1px;
     padding: 10px;
