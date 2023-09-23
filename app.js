@@ -15,6 +15,8 @@ app.get("/login", (req, res) => {
     res.sendFile(path.join(__dirname, "views/login.html"))
 });
 
+
 app.listen(port, () => {
-    console.log(`Escuchando en http://localhost:${port}`);
-});
+    console.log(`Servidor iniciado en http://localhost:${port}`)
+  });
+  
